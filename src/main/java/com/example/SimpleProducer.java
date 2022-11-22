@@ -23,8 +23,8 @@ public class SimpleProducer {
 
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(configs);
 
-  //      String messageKey = "예리씨 화장실 가시네용";
-        String messageValue = "예리씨 지금 뭐하세용?";
+  //      String messageKey = "메시지키";
+        String messageValue = "메시지값?";
 
         ProducerRecord<String, String> record = new ProducerRecord<String, String>(TOPIC_NAME, messageValue);
         producer.send(record);
