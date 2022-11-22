@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="simple-kafka-producer" />
+        <module name="Thursday_Study" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Thursday_Study" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
